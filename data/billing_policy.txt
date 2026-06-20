@@ -1,0 +1,5 @@
+Billing and Refund Policy
+Operational uptime disputes or duplicate charges are treated with high priority. 
+If you see unexpected duplicate charges on your billing statement, please log a ticket. 
+Our standard timeline for billing dispute resolutions is 3-5 business days. 
+Refunds for duplicate charges are processed back to the original payment method.
