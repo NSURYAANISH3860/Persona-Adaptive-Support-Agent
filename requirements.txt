@@ -7,3 +7,4 @@ pypdf>=3.0.0
 python-dotenv>=1.0.0
 reportlab>=4.0.0
 protobuf<5.0.0
+pysqlite3-binary
