@@ -1,3 +1,12 @@
+# 1. OVERRIDE FOR PROTOBUF AND PYTHON 3.14+
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
+# 2. OVERRIDE FOR STREAMLIT CLOUD SQLITE3
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 from src.classifier import classify_customer_persona
 from src.rag_pipeline import LocalRAGPipeline
